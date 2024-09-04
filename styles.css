@@ -1,0 +1,49 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    background-color: #f0f0f0;
+}
+
+
+
+#gallery-heading {
+    text-align: center;
+}
+.gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #0000ff; 
+    
+}
+
+    .images {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        text-align: center; 
+    }
+    
+.image-container {
+    padding: 0px;
+    margin: 10px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #0000ff;
+    text-align: center; 
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container p {
+    margin-top: 10px;
+    color: #000; 
+    transition: color 0.3s ease; 
+}
+
+.image-container:hover p {
+    color: red; 
+}
