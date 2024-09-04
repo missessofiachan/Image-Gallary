@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="gallery-heading">Image Gallery</h1>
+
+
+    <section class="gallery">
+        <div id="gallery-images" class="images"></div> 
+    </section>
+
+
+    <form id="upload-form">
+        <input type="file" id="image-upload" accept="image/*" multiple>
+        <button type="button" onclick="uploadImages()">Upload Images</button>
+    </form>
+
+ 
+    <script src="script.js"></script>
+</body>
+</html>
