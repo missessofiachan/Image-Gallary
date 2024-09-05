@@ -21,7 +21,7 @@ function uploadImages() {
             deleteButton.textContent = 'Delete';
             deleteButton.classList.add('delete-btn');
 
-            // Add event listener to delete the image
+         
             deleteButton.addEventListener('click', function() {
                 gallery.removeChild(imageContainer);
             });
